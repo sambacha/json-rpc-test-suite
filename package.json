@@ -1,0 +1,21 @@
+{
+  "name": "json-rpc-pactum-test",
+  "version": "0.0.1",
+  "description": "RPC Testing Suite",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx prettier --config .prettierrc.json --write .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "codecov": "^3.8.3",
+    "coveralls": "^3.1.1",
+    "jest": "^27.1.1",
+    "nyc": "^15.1.0",
+    "pactum": "^3.0.19"
+  }
+}
